@@ -1,0 +1,409 @@
+html,
+body {
+    margin: 0;
+}
+
+#menu_superior {
+    background: #FF7212;
+    width: 100%;
+    height: 60px;
+}
+
+#logo {
+    position: relative;
+    top: 25px;
+    margin-top: -25px;
+    margin-left: 100px;
+}
+
+#buscar {
+    position: relative;
+    width: 250px;
+    height: 20px;
+    top: 4px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-left: 30px;
+    border-style: none;
+    font-style: italic;
+    padding: 10px;
+}
+
+#imgMenu {
+    position: relative;
+    top: 15px;
+    margin-left: 10px;
+    outline: 0;
+}
+
+.sac a {
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 800px;
+    top: -35px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.noticias {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#noticia01 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin: 250px 20px 20px 20px;
+    border: darkgray solid 1px;
+}
+
+#noticia01 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 150px;
+    margin-top: -180px;
+    color: royalblue;
+}
+
+#noticia01 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-left: 150px;
+    color: rgb(66, 59, 59);
+}
+
+#noticia01 img {
+    width: 50%;
+    height: 100%;
+}
+
+#noticia02 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin: 20px 20px 20px 350px;
+    border: darkgray solid 1px;
+}
+
+#noticia02 img {
+    width: 50%;
+    height: 100%;
+}
+
+#noticia02 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 150px;
+    margin-top: -180px;
+    color: red;
+}
+
+#noticia02 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-left: 150px;
+    color: rgb(66, 59, 59);
+}
+
+#noticia03 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin: 20px 20px 20px 20px;
+    border: darkgray solid 1px;
+}
+
+#noticia03 img {
+    width: 50%;
+    height: 100%;
+}
+
+#noticia03 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 150px;
+    margin-top: -180px;
+    color: green;
+}
+
+#noticia03 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-left: 150px;
+    color: rgb(66, 59, 59);
+}
+
+#noticia04 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin: 250px 20px 20px 350px;
+    border: darkgray solid 1px;
+}
+
+#noticia04 img {
+    width: 50%;
+    height: 100%;
+}
+
+#noticia04 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-left: 150px;
+    margin-top: -180px;
+    color: lawngreen;
+}
+
+#noticia04 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    margin-left: 150px;
+    color: rgb(66, 59, 59);
+}
+
+#divisor {
+    width: 1px;
+    height: 40px;
+    background: whitesmoke;
+    position: relative;
+    margin-left: 1050px;
+    top: -75px;
+}
+
+#talks {
+    position: absolute;
+    margin-left: 1060px;
+    top: 15px;
+}
+
+#btnConversas {
+    background: no-repeat;
+    background-image: url(talks.PNG);
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+
+#btnConversas:hover {
+    cursor: pointer;
+}
+
+#painel {
+    position: absolute;
+    margin-left: 1100px;
+    top: 8px;
+}
+
+#btnPainel {
+    background: no-repeat;
+    background-image: url(painel.PNG);
+    width: 45px;
+    height: 50px;
+    border: none;
+}
+
+#btnPainel:hover {
+    cursor: pointer;
+}
+
+#email {
+    position: absolute;
+    margin-left: 1150px;
+    top: 15px;
+}
+
+#btnEmail {
+    background: no-repeat;
+    background-image: url(email.PNG);
+    width: 40px;
+    height: 35px;
+    border: none;
+}
+
+#btnEmail:hover {
+    cursor: pointer;
+}
+
+#clima {
+    position: absolute;
+    margin-left: 1200px;
+    top: 12px;
+}
+
+#btnClima {
+    background: no-repeat;
+    background-image: url(clima.PNG);
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+#btnClima:hover {
+    cursor: pointer;
+}
+
+#horoscopo {
+    position: absolute;
+    margin-left: 1250px;
+    top: 15px;
+}
+
+#btnHoroscopo {
+    background: no-repeat;
+    background-image: url(horoscopo.PNG);
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+#btnHoroscopo:hover {
+    cursor: pointer;
+}
+
+#futebol {
+    position: absolute;
+    margin-left: 1300px;
+    top: 15px;
+}
+
+#btnFutebol {
+    background: no-repeat;
+    background-image: url(futeboll.PNG);
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+#btnFutebol:hover {
+    cursor: pointer;
+}
+
+#coala {
+    background: rgb(37, 169, 252);
+    height: 500px;
+    width: 500px;
+    margin-left: 800px;
+    position: relative;
+}
+
+#rosto {
+    position: absolute;
+    background: rgb(166, 190, 207);
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+    margin-left: 25%;
+    border-radius: 50%;
+}
+
+#orelhaD {
+    position: absolute;
+    background: rgb(166, 190, 207);
+    width: 60%;
+    height: 65%;
+    border-radius: 50%;
+    margin-left: 150px;
+    top: 20px;
+    z-index: 1;
+}
+
+#orelhaE {
+    position: absolute;
+    background: rgb(166, 190, 207);
+    width: 60%;
+    height: 65%;
+    border-radius: 50%;
+    margin-left: -50px;
+    top: 20px;
+    z-index: 1;
+}
+
+#olhoD {
+    position: absolute;
+    background: whitesmoke;
+    width: 90px;
+    height: 99px;
+    border-radius: 50%;
+    top: 65px;
+    right: 40px;
+    z-index: 3;
+}
+
+#olhoE {
+    position: absolute;
+    background: whitesmoke;
+    width: 90px;
+    height: 99px;
+    border-radius: 50%;
+    top: 65px;
+    left: 40px;
+    z-index: 3;
+}
+
+.pupila {
+    position: absolute;
+    background: rgb(39, 53, 74);
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-top: 35%;
+    margin-left: 35%;
+}
+
+#nariz {
+    position: absolute;
+    background: rgb(190, 132, 95);
+    height: 90px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 100px;
+    top: 125px;
+    z-index: 4;
+}
+
+.ouvido {
+    position: absolute;
+    background: rgb(129, 156, 175);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+}
+
+#rosto2 {
+    position: absolute;
+    background: rgb(166, 190, 207);
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+    margin-left: 25%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#chifre1 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(166, 190, 207);
+    margin-top: -30px;
+    margin-left: 75px;
+}
+
+#chifre2 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid rgb(166, 190, 207);
+    margin-top: -35px;
+    margin-left: 125px;
+}
